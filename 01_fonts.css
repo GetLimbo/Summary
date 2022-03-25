@@ -19,7 +19,7 @@ body {
 }
 
 .avatar {
-  width: 265px;
+  width: 240px;
   box-shadow: 4px 4px 14px rgba(0,0,0,25);
   border-radius: 28px;
 }
@@ -30,7 +30,8 @@ body {
    font-style: italic;
    font-weight: bold;
    color: #000000;
-   margin: 0px;
+   margin: 1px;
+
    
 
 
