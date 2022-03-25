@@ -7,117 +7,145 @@
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="01_fonts.css">
   <link rel="stylesheet" href="borders.css">
+  <link rel="stylesheet" href="dropdown.css">
 
 </head>
 
 <body>
 
+
+
   <div class="container">
+
+
+    <div class="navbar">
+      <h1>Артем Сидоров</h1>
+    </div>
+
+
 
     <div class="info">
       <img src="Avatar.jpg" alt="аватарка" class="avatar">
 
       <div class="info-text">
-        <h1>Сидоров Артем</h1>
+
 
         <p>Я начинающий веб-разработчик</p>
 
-        <p>Пока что я почти ничего не умею</p>
-        <p>Но у меня есть мой первый сайт<p>
+        <p>В данный момент изучаю основы HTML,CSS,JS</p>
 
-        <h4>Список социальных сетей:</h4>
+        <p>В ближайшем будущем пройду курсы Junior Front End Developer от Result School</p>
 
-        <a href="https://vk.com/getliwbo" target="_blank">Vk</a>
-        |
-        <a href="https://t.me/getlimbo" target="_blank">Telegram</a>
-        
+
+        <br>
+
+        <div class="dropdown">
+          <button class="dropbtn">Список социальных сетей</button>
+          <div class="dropdown-content">
+            <a href="https://vk.com/getliwbo" target="_blank">Вконтакте</a>
+
+            <a href="https://t.me/getlimbo" target="_blank">Telegram</a>
+          </div>
+        </div>
+
+
+
       </div>
     </div>
 
 
-      <div class="card bg-4">
-        <h2>Мои Хобби</h2>
-        <ol class="list">
-          <li>Изучение языков программирования</li>
-          
-        </ol>
-      </div>
+    <div class="card bg-4">
+      <h2>Мои Хобби</h2>
+      <ol class="list">
+        <li>Изучение языков программирования</li>
+        <li>Спорт</li>
+        <li>Гитара</li>
+
+      </ol>
+    </div>
 
 
 
-      <div class="card bg-4">
-        <h2>Опыт работы</h2>
-        <table class="table">
-          <!-- <thead>
+    <div class="card bg-4">
+      <h2>Опыт работы</h2>
+      <table class="table">
+        <!-- <thead>
           <tr>
             <th>Компания</th>
             <th>Должность</th>
             <th>Год</th>
           </tr>
         </thead> -->
-          <tbody>
-            <tr>
-              <td>MotorOil24</td>
-              <td>Сотрудник call центра</td>
-              <td>2016 - 2017</td>
-            </tr>
-            <tr>
-              <td>РЕСО-Гарантия</td>
-              <td>Страховой Агент</td>
-              <td>2019 - 2022</td>
-            </tr>
-            <tr>
-              <td>NLS - Силикон</td>
-              <td></td>
-              <td>2022 - сейчас</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
+        <tbody>
+          <tr>
+            <td>MotorOil24</td>
+            <td>Сотрудник call центра</td>
+            <td>2016 - 2017</td>
+          </tr>
+          <tr>
+            <td>РЕСО-Гарантия</td>
+            <td>Страховой Агент</td>
+            <td>2019 - 2022</td>
+          </tr>
+          <tr>
+            <td>NLS - Силикон</td>
+            <td></td>
+            <td>2022 - сейчас</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
 
-
-
-      <!-- <div class="card bg-4"> -->
-
-
-
-
-
-      <form action="/" class="form">
-        <h2>Связь со мной</h2>
-
-        <div class="form-row">
-
-          <div class="form-group">
-            <label for="name">Ваше имя</label>
-            <input type="text" id="name" placeholder="Введите ваше имя">
-          </div>
-
-          <div class="form-group">
-            <label for="email">Ваш Email</label>
-            <input type="email" id="email" placeholder="Введите Email">
-          </div>
-        </div>
-
-        <br>
-
-        <div class="form-group">
-          <label for="text">Ваше сообщение</label>
-          <textarea id="text" rows="5" cols="31" placeholder="Введите ваше сообщение"></textarea>
-        </div>
-
-
-        <br>
-
-
-        <input class="btn" type="submit" value="Отправить!">
-
-
+    <div class="card bg-4">
+      <h2>Мои поекты</h2>
+      <ol class="list">
+        <li>
+          <a href="https://getlimbo.github.io/Summary/" target="_blank">Мой первый сайт (HTML,CSS)</a>
+        </li>
+      </ol>
     </div>
 
 
 
-    </form>
+
+
+
+
+    <form action="/" class="form">
+      <h2>Связь со мной</h2>
+
+      <div class="form-row">
+
+        <div class="form-group">
+          <label for="name">Ваше имя</label>
+          <input type="text" id="name" placeholder="Введите ваше имя">
+        </div>
+
+        <div class="form-group">
+          <label for="email">Ваш Email</label>
+          <input type="email" id="email" placeholder="Введите Email">
+        </div>
+      </div>
+
+      <br>
+
+      <div class="form-group">
+        <label for="text">Ваше сообщение</label>
+        <textarea id="text" rows="5" cols="31" placeholder="Введите ваше сообщение"></textarea>
+      </div>
+
+
+      <br>
+
+
+      <input class="btn" type="submit" value="Отправить!">
+
+
+  </div>
+
+
+
+  </form>
 
   </div>
 

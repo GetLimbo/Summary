@@ -133,7 +133,7 @@ table td {
   .info-text p {
     font-style: italic;
     font-weight: bold;
-    color: #86898f;
+    color: #000000;
     margin: 0;
   }
   
@@ -147,3 +147,24 @@ table td {
       text-align: center;
     }
   }
+
+
+  .navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      background: #d8c6da;
+      margin: auto;
+      font-size: 1rem;
+      text-align: center;
+      border-style: solid;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      border-width: 2px ;
+      z-index: 1;
+      
+      
+  }
+

@@ -12,6 +12,9 @@ body {
 .container {
   max-width: 750px;
   margin: auto;
+  margin-top: 100px;
+  
+  
   
 }
 
@@ -26,7 +29,7 @@ body {
 .info-text p {
    font-style: italic;
    font-weight: bold;
-   color: #717275;
+   color: #000000;
    margin: 0px;
    
 
