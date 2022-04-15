@@ -4,31 +4,11 @@
     margin-bottom: 20px;
     border-style: solid;
     border-width: 2px ;
+    background: #d8c6da;
    
 }
 
-
-.card h2 {
-    margin-bottom: 10px;
-}
-
-.bg-1 {
-    background: #008B8B;
-}
-
-.bg-2 {
-    background: #e0bce7; 
-}
-
-.bg-3 {
-    background: #8FBC8F;
-}
-
-.bg-4 {
-    background: #d8c6da;;
-}
-
-.info {
-    padding-left: 0;
+.hobby h2, .exp h2, .work h2 {
+    text-align: center;
 }
 
